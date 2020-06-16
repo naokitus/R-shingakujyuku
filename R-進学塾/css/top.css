@@ -237,11 +237,15 @@ header{
     border-top: 1px dashed #bbb;
 }
 
-.conts-doc{
+.new-conts-img{
     position: absolute;
     top: 20%;
     right: 10%;
     width: 25%;
+}
+
+.conts-doc{
+    width: 100%;
 }
 
 /* ここまでconts */
@@ -401,6 +405,15 @@ footer p{
     font-size: 1.2vw;
 }
 
+.footer-bottom:hover{
+    transform: scale(1.05);
+}
+
+
+/* 全体に対して */
+a:hover{
+    transform: scale(1.02);
+}
 
 
 /* ここからfadein */
