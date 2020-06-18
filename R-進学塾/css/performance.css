@@ -272,6 +272,9 @@ ul{
 .child{
     display: none;
     background-color: #f2f2f2;
+}
+
+.inner-bottom{
     display: flex;
     justify-content: space-around;
 }
@@ -287,6 +290,8 @@ ul{
     margin: 1.3vw 0;
     color: #ffffff;
 }
+
+
 
 
 .child-in li{

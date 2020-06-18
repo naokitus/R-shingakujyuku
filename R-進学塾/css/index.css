@@ -427,7 +427,7 @@ a:hover{
 
 .fadein {
     opacity : 0;
-    transform : translate(0, 50px);
+    transform : translate(0, 40px);
     transition : all 1s;
   }
    
