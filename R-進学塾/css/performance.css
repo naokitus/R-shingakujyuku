@@ -231,8 +231,70 @@ img{
     font-size: 4vw;
 }
 
-.per-2020{
+.per{
     margin-top: 5vw;
     width: 60%;
     margin-left: 20%;
 }
+
+.acordion-top{
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+/* アコーディオン */
+.acordion{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.toggle{
+    width: 100%;
+    background-color: #4d4d4d;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: #ffffff;
+}
+
+.child{
+    display: none;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child-in li:first-of-type{
+    display: flex;
+    background-color: #ff7bac;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 2vw;
+    font-size: 1.7vw;
+    margin: 1.3vw 0;
+    color: #ffffff;
+}
+
+
+.child-in li{
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+}
+.toggle{
+    cursor: pointer;
+}
+
+
