@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R-進学塾のお問い合わせ</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="../top/parts/logo.png" alt="R-進学塾のロゴ" class="logo" />
+      <div class="time">
+        <p class="time-top">対応時間：月～土（10:00~22:00)</p>
+        <p class="time-bottom"><i class="fas fa-phone-volume"></i>088-883-0111</p>
+      </div>
+      <div class="header-bottom">
+        <ul class="header-menu">
+          <li>
+            <a href="../html/top.html" class="header-link">トップページ</a>
+          </li>
+          <li>
+            <a href="../html/instructor.html" class="header-link">講師紹介</a>
+          </li>
+          <li><a href="#" class="header-link">コース紹介</a></li>
+          <li><a href="../html/performance.html" class="header-link">合格実績</a></li>
+          <li><a href="#" class="header-link">合格体験記</a></li>
+          <li>
+            <a href="../html/contact.html" class="header-link">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="conts-header">
+      <div class="conts-header-1">
+        <h1>お問い合わせ</h1>
+      </div>
+    </div>
+    <div class="conts">
+      <p>
+        R-進学塾へ関心をお寄せいただき、ありがとうございます。<br>
+        資料請求、R-進学塾への質問などは下記フォームからも受け付けておりますのでご利用ください。<br>
+        専門のスタッフが対応させていただきます。<br>
+        ※対応に数日かかる場合もございますので、ご了承ください。<br>
+      </p>
+    </div>
+    <form class="mailForm" action="mail.php" method="post">
+        <hr>
+        <dl>
+            <div class="conts-input">
+          <dt>お名前<span>必須</span></dt>
+          <dd>
+            <input name="name" type="text" required="required" id="name">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>学校名<span>必須</span></dt>
+          <dd>
+            <input name="school" type="text" required="required" id="school">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>郵便番号<span>必須</span></dt>
+          <dd>
+            <input name="postalcode" type="text" required="required" id="postalcode">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>住所<span>必須</span></dt>
+          <dd>
+            <input name="streetaddress" type="text" required="required" id="streetaddress">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>電話番号<span>必須</span></dt>
+          <dd>
+            <input name="phonenumber" type="text" required="required" id="phonenumber">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>メールアドレス<span>必須</span></dt>
+          <dd>
+            <input name="mail" type="mail" required="required" id="mail">
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>ご用件<span>必須</span></dt>
+          <dd>
+            <select name="requirement" type="text" required="required" id="requirement">
+                <option value="requirement">資料請求</option>
+                <option value="requirement">無料体験授業への申し込み</option>
+                <option value="requirement">R-進学塾への質問</option>
+                <option value="requirement">その他</option></select>
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>希望資料</dt>
+          <dd>
+            <select name="document" type="text" required="required" id="document">
+                <option value="document">希望しない</option>
+                <option value="document">予備校部門（浪人生）</option>
+                <option value="document">高校生現役コース</option>
+                <option value="document">土佐中学生コース</option>
+                <option value="document">附属中学生コース</option></select>
+          </dd></div><hr>
+          <div class="conts-input">
+          <dt>第一志望校</dt>
+          <dd>
+            <input name="desiredschool" type="text" required="required" id="desiredschool">
+          </dd></div><hr>
+          <div class="conts-details">
+          <p>各種講座などのご案内で、締め切り・定員間近の場合などに限り、ご案内をお電話にてさせていただく場合がございます。
+                お電話が不要の場合は、下記フォームにご記入ください。</p></div>
+          <div class="conts-input">
+          <dt>内容詳細</dt>
+          <dd>
+            <textarea name="content" required="required" id="content"></textarea>
+          </dd></div><hr>
+          <input type="hidden" id="token" name="token" value="1234567" />
+        </dl>
+        <p id="submit_button_cover">
+            <div class="conts-input-last">
+          <input name="submit_buton" type="submit" id="submit_button" value="送信" class="submit">
+        </div>
+        </p>
+   </form>
+   <footer class="fadein">
+    <ul>
+      <li class="footer-bottom"><a href="../html/top.html">トップページ</a></li>
+      <li class="footer-bottom"><a href="../html/instructor.html">講師紹介</a></li>
+      <li class="footer-bottom"><a href="">コース紹介</a></li>
+      <li class="footer-bottom"><a href="../html/performance.html">合格実績</a></li>
+      <li class="footer-bottom"><a href="">合格体験記</a></li>
+      <li class="footer-bottom"><a href="../html/contact.html">お問い合わせ</a></li>
+    </ul>
+    <hr>
+    <img src="../top/parts/logo.png" alt="R-進学塾のロゴ" class="footer-img-1">
+    <p>〒780-0833 高知県高知市南はりまや町1-6-12<br>
+      TEL:088-883-0111<br>
+      FAX:088-883-0112</p>
+      <div class="footer-last"><p>Copyright © R-shingakujyuku. All Right Reserved.</p></div>
+</footer>
+  </body>
+</html>

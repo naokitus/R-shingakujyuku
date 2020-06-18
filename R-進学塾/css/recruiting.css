@@ -138,7 +138,7 @@ header{
     display: flex;
     justify-content: space-around;
     width: 96%;
-    margin: 0 auto;
+    margin-left: 2%;
 }
 
 .header-menu li{
@@ -164,200 +164,94 @@ header{
 
 /* ここまでがheader */
 
-/* ここからcarousel */
-.swiper-slide{
-    margin-top: 10px;
-    position: relative;
-    left: 2.7%;
-}
-
-.swiper-slide img{
-    width: 94.6%;
-}
-
-/* ここまでがcarousel */
-
-/* ここからnews */
-.news{
-    display: flex;
-    width: 100%;
-    background-color: #333333;
-    color: #ffffff;
-    text-decoration: none;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
-}
-
-/* ここまでがnews */
-
 /* ここからconts */
-.conts{
-    width: 100%;
-    position: relative;
-}
-
-.new-conts{
-    margin-left: 8%;
+.conts-header{
     margin-top: 50px;
-    margin-bottom: 50px;
-    width: 50vw;
-}
-
-.new-conts-info{
-    font-size: 2vw;
-    transform: translateY(10px);
-}
-
-.new-conts-border-1{
-    border-top: 3px solid #ec3223;
-}
-
-.new-conts-info-1,
-.new-conts-info-2{
     width: 100%;
-    height: 8vw;
-}
-
-.new-conts-info-1>h3{
-    font-size: 1.5vw;
-    padding-top: 5%;
-}
-
-.new-conts-info-2>h3{
-    font-size: 1.5vw;
-    padding-top: 6%;
-}
-
-.new-conts-info-1>p{
-    margin-top: .5vw;
-    line-height: 2vw;
-    font-size: 1.2vw;
-}
-
-.new-conts-info-2>p{
-    margin-top: 2vw;
-    font-size: 1.2vw;
-}
-
-.new-conts-border-2,
-.new-conts-border-3{
-    border-top: 1px dashed #bbb;
-}
-
-.new-conts-img{
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    width: 25%;
-}
-
-.conts-doc{
-    width: 100%;
-}
-
-/* ここまでconts */
-
-/* ここからthought */
-.thought{
-    width: 100%;
-    height: 45vw;
-    background: url(../top/parts/background1.jpg);
+    height: 15vw;
+    background: url(../recruiting/headline_pc.jpg);
     background-size: cover;
-}
-
-h1{
-    font-family: "貂明朝";
-    font-size: 2.4vw;
-    padding-top: 7%;
-    margin-left: 8%;
-}
-
-h1>span{
-    color: #ec3223;
-}
-
-.thought-content{
-    width: 84%;
-    margin-left: 8%;
-    font-size: 1.4vw;
-    margin-top: 4vw;
-    line-height: 1.8vw;
-}
-
-/* ここからthought */
-
-/* ここからguide */
-.guide{
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.guide a{
-    margin-top: 80px;
-    margin-bottom: 80px;
-    width: 37%;
-}
-
-.guide img{
-    width: 100%;
-}
-
-.lecture{
-    margin-left: 8%;
-}
-
-.course{
-    margin-right: 8%;
-}
-
-/* ここまでguide */
-
-/* ここからaccess */
-.access{
-    text-align: center;
-}
-
-.access p{
-    font-size: 2.3vw;
-}
-
-.access hr{
-    margin-left: 8%;
-    width: 84%;
-    border-top: 4px solid #ec3223;
-}
-
-/* ここまでがaccess */
-
-/* ここからbottom */
-.bottom{
-    width: 100%;
+.conts-header-1{
+    width: 30%;
+    height: 9vw;
+    background-color: rgba(255, 255, 255, .8);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.bottom a{
-    margin-top: 70px;
-    margin-bottom: 70px;
-    width: 27%;
+.conts-header-1 h1{
+    font-size: 3vw;
+    font-weight: 100;
 }
 
-.bottom img{
+.conts-1{
     width: 100%;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
-.bottom-1{
-    margin-left: 6.3%;
+.conts-1 h2{
+    font-size: 2.1vw;
 }
 
-.bottom-3{
-    margin-right: 6.3%;
+.conts-2{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
 
-/* ここまでがbottom */
+.conts-2-check{
+    margin-top: 80px;
+    display: flex;
+}
+
+.conts-2-check img{
+    width: 2.5vw;
+}
+
+.conts-2-check p{
+    font-size: 2.5vw;
+}
+
+/* ここからtable */
+table{
+    margin-top: 8vw;
+    width: 60%;
+    height: 30vw;
+    margin-left: 20%;
+}
+
+table th,
+table td{
+    border: 5px solid #ffffff;
+    vertical-align: middle;
+    text-align: left;
+}
+
+table th{
+    background-color: #c8e4ff;
+    padding-left: 3%;
+}
+
+table td{
+    background-color: #f2f2f2;
+    padding-left: 5%;
+}
+
+/* ここまでtable */
+.conts-bottom{
+    margin-top: 30px;
+    line-height: 3vw;
+}
 
 /* ここからfooter */
 
@@ -436,4 +330,3 @@ a:hover{
     opacity : 1;
     transform : translate(0, 0);
   }
-

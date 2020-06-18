@@ -1,0 +1,238 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* ここまでがリセットCSS */
+
+/* ここからheader */
+
+header{
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 65px;
+    margin-left: 3.25%;
+    margin-top: 17px;
+}
+
+.time{
+    position: absolute;
+    right: 4%;
+    margin-top: 16.8px;
+    top: 0px;
+}
+
+.time-top{
+    font-size: 18px
+}
+
+.time-bottom{
+    padding-top: 8px;
+    font-size: 35px;
+}
+
+.header-bottom{
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.header-menu li{
+    width: 15%;
+    height: 50px;
+}
+
+.header-link{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #ec3223;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link:hover{
+    transform: scale(1.05);
+}
+
+/* ここまでがheader */
+
+.conts-back{
+    background-image: url(../performance/background1_pc.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ここからconts */
+img{
+    width: 100%;
+}
+
+.conts-header{
+    margin-top: 50px;
+    width: 100%;
+    height: 15vw;
+    background: url(../performance/headline_pc.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conts-header-1{
+    width: 30%;
+    height: 9vw;
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conts-header-1 h1{
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.conts-1{
+    width: 100%;
+    margin-top: 5vw;
+}
+
+.conts-year-header{
+    margin-top: 2vw;
+    width: 100%;
+    height: 8vw;
+    background-color: #4d4d4d;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conts-year-header-bottom{
+    width: 100%;
+    height: 1.5vw;
+    background-color: #ec3223;
+    position: absolute;
+    bottom: 0;
+}
+
+.conts-year-header h2{
+    color: #ffffff;
+    font-size: 4vw;
+}
+
+.per-2020{
+    margin-top: 5vw;
+    width: 60%;
+    margin-left: 20%;
+}
